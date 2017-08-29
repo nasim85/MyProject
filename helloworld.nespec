@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <version>0.00</version>
+    <authors>Nasim</authors>
+    <owners>Nasim</owners>
+    <id>helloworld</id>
+    <title>helloworld</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>hello world project</description>
+    <copyright>Copyright</copyright>
+    <!--<dependencies>
+        <dependency id="PetaPoco.Core" version="4.0.3" />
+      </dependencies>
+	  -->
+  </metadata>
+  <files>
+    <file src="MyProject\helloworld.cs" target="lib\helloworld.cs" />
+  </files>
+</package>
