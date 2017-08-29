@@ -1,0 +1,15 @@
+image: mono:4.4.0.182
+#image: alpine
+
+stages:
+  - build
+
+build:
+  stage: build
+  script: 
+  - echo "Building the app"
+  - echo "Release build..."
+  - MONO_IOMAP=case xbuild /t:Build /p:Configuration="Release" /p:Platform="Any CPU" helloworld.csproj
+  artifacts:
+    paths:
+    - helloworld.cs
